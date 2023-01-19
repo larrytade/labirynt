@@ -1,4 +1,4 @@
-package com.company.Exe.Mitko.DataStructure;
+package com.company.Exe.MitkoVerson2.DataStructure;
 
 public interface DataStructure<E> {
     void push(E item);

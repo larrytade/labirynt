@@ -1,4 +1,4 @@
-package com.company.Exe.Mitko.puzzle;
+package com.company.Exe.MitkoVerson2.Mitko;
 import java.util.List;
 
 class Point{

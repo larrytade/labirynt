@@ -1,4 +1,4 @@
-package com.company.Exe.Mitko.DataStructure;
+package com.company.Exe.MitkoVerson2.DataStructure;
 
 public class Queue<E> implements DataStructure<E> {
     protected final LinkedList<E> items;
@@ -18,6 +18,7 @@ public class Queue<E> implements DataStructure<E> {
         items.add(item);
     }
 
+    @Override
     public E pop() {
         if (!isEmpty()) {
             E item = items.get(0);
@@ -28,7 +29,7 @@ public class Queue<E> implements DataStructure<E> {
 
         throw new IndexOutOfBoundsException("The queue is empty");
     }
-
+    @Override
     public E top() {
         if (!isEmpty()) {
             return items.get(0);

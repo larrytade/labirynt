@@ -1,4 +1,4 @@
-package com.company.Exe.Mitko.DataStructure;
+package com.company.Exe.MitkoVerson2.DataStructure;
 
 class Node<E> {
         E data;

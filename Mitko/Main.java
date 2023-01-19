@@ -1,9 +1,8 @@
-package com.company.Exe.Mitko.puzzle;
+package com.company.Exe.MitkoVerson2.Mitko;
 
 public class Main {
     public static void main(String[] args) {
-        Point start = new Point(1,6);
-        Mitko mitko = new Mitko();
-        mitko.solve(start);
+        LabyrinthGame labyrinthGame = new LabyrinthGame();
+        labyrinthGame.solve();
     }
 }
